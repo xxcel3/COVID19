@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="vaccine.js"></script>
+  </head>
+  <body onload="getData();">
+    <div id="barDiv"></div>
+    <div id="pieDiv"></div>
+    <br>
+    Location: <input type="text" id="locText"></input>
+    <br>
+    <button onclick="getLocData();">Plot it!</button>
+    <br>  
+    <div id="lineDiv"></div>
+  </body>
+</html>
